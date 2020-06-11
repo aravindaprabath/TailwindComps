@@ -1,0 +1,30 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "tailwind components project",
+  "main": "index.js",
+  "scripts": {
+    "tailbuild": "postcss css/tailwind.css -o css/tailwindcore.css"
+  },
+  "keywords": [],
+  "author": "aravindaprabth",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aravindaprabath/TailwindComps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aravindaprabath/TailwindComps/issues"
+  },
+  "homepage": "https://github.com/aravindaprabath/TailwindComps#readme"
+}
